@@ -17,7 +17,7 @@ font-family: 'Saira Semi Condensed', serif;
 
 body{
 
-	background-image: url(https://github.com/mijofields/Basic-Portfolio/blob/master/assets/images/intersection.png?raw=true);
+	background-image: url(https://github.com/mijofields/Bootstrap-Portfolio/blob/master/images/intersection.png?raw=true);
 	
 
 }
@@ -25,4 +25,11 @@ body{
 .white{
 
 	background-color: white;
+}
+
+.smallpic{
+
+	max-height: 25%;
+	max-width: 25%;
+
 }
