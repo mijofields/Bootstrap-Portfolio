@@ -7,6 +7,7 @@ font-family: 'Saira Semi Condensed', serif;
 .myColour{
 
 	background-color: #4aaaa5
+
 }
 
 .fontColour{
@@ -27,16 +28,14 @@ body{
 	background-color: white;
 }
 
-.smallpic{
+/*.smallpic{
 
 	max-height: 25%;
-	max-width: 25%;
+	max-width: 25%;*/
 
 }
 
-.minHeight{
+.white{
 
-
-	height: 50px:;
+	font-color: white;
 }
-
