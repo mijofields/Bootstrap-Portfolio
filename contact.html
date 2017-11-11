@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-	<!-- Bootstrap link to HTML and CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <!-- Bootstrap link to HTML and CSS -->
   <link rel="stylesheet" type="text/css" href="style.css">
-	<link href="https://fonts.googleapis.com/css?family=Saira+Semi+Condensed" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Saira+Semi+Condensed" rel="stylesheet">
 
-	<meta charset="utf-8">
+  <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>Personal Portfolio</title>
+  <title>Personal Portfolio</title>
 </head>
 
 <body>
@@ -40,30 +40,25 @@
 
 
 
-  <div class="container">
-  <div class="row">
-    <div class="col-12"><p></p></div>
-</div>
-</div>
+ <div container>
 
- <div class="container">
-    <div class="row justify-content-between">
-      <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 border border-dark pt-2 pb-2 white"> <!--check these cols-->
-        <div class="page-header">
-          <h2 class="fontColour">Contact Me</h2>
-        </div>
-      
+    <div class="row justify-content-around pt-2">
 
-          <form>
-          <div class="form-group col-5">
-          <label for="formGroupExampleInput">Name:</label>
-        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Ledley King">
+      <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 border border-dark pt-lg-2 pt-md-2 pt-sm-2 pt-2 pb-lg-2 pb-md-2 pb-sm-2 pb-2 white"> 
+          <div class="page-header">
+          <h2 class="fontColour">Contact</h2>
           </div>
-        <div class="form-group col-5">
-        <label for="formGroupExampleInput2">E-mail:</label>
-        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="DeadlyLedley@SpursLegend.co.uk">
-        </div>
-        <div class="form-group col-7">
+
+            <form class="fontColour">
+  <div class="form-group">
+    <label for="formGroupExampleInput">Name:</label>
+    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Ledley King">
+  </div>
+  <div class="form-group">
+    <label for="formGroupExampleInput2">E-mail:</label>
+    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="DeadlyLedley@SpursLegends.co.uk">
+  </div>
+  <div class="form-group">
         <label for="exampleTextarea">Message:</label>
         <textarea class="form-control" id="exampleTextarea" rows="6">Write me a message...</textarea>
         </div>
@@ -71,19 +66,20 @@
 
 
 
+      </form>
 
-        </form>
       </div>
-
-
-      <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 border border-dark pt-2 pb-2 mt-lg-0 mt-md-0 mt-sm-1 mt-xs-2 white">
+   
+  
+ 
+ 
+      <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 border border-dark pt-2 pb-2 mt-lg-0 mt-md-0 mt-sm-2 mt-xs-2 mt-2 white">
         
           <div>
             <h2 class="panel-title fontColour">Connect</h2>
           </div>
         
               <div class="justify-content-around"> <!-- this doesn't seem to work, investigate-->
-          
             <a href="https://github.com/mijofields" target="_blank"><img src="https://github.com/mijofields/Bootstrap-Portfolio/blob/master/images/GitHub.png?raw=true" alt="GitHub" class="img-fluid smallpic"></a>
           
             <a href="https://www.linkedin.com/in/m-fields/" target="_blank"><img src="https://github.com/mijofields/Bootstrap-Portfolio/blob/master/images/LinkedIn.png?raw=true" alt="LinkedIn" class="img-fluid smallpic"></a>
@@ -92,19 +88,21 @@
         
             </div>
       
-          </div> 
         </div>
-      </div>
-    </div>
+    <!-- </div> -->
+    <!-- blank padding at the bottom of the page so the bottom fixed nav bar doesnt encroach on content-->
+<div class="container">
+  <div class="row">
+    <div class="col-12 pb-lg-5 pb-md-5 pb-sm-5 pb-5"></div> 
+  </div>
+</div>
 
+</div>
+</div>      
 
-  <nav class="navbar fixed-bottom navbar-dark myColour justify-content-center mt-2">
+<nav class="navbar fixed-bottom navbar-dark myColour justify-content-center mt-2">
   <a class="navbar-brand">Mike Fields &copy 2017</a>
 </nav>
-
-
-
-
 
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
